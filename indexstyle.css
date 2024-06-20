@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+#The_Container{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid blueviolet;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://t3.ftcdn.net/jpg/05/00/56/48/360_F_500564879_AteFIHu69Ywoh1dT4ccjW0fjX6v7aefl.jpg");
+}
+#Tital_panel{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    background-color: bisque;
+    border-radius: 40px;
+    border: 5px solid wheat;
+    width: 50%;
+    height: 10%;
+    font-size:7vh;
+}
+#Button_panel{
+    width: 60%;
+    height: 40vh;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+}
+#display{
+    width:20%;
+    height:10%;
+    background-color: wheat;
+    margin-top: 5%;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 20%;
+    width: 20%;
+    font-size: 5vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: pink;
+}
+@media screen and (max-width:550px){
+    #Tital_panel{
+    width: 80%;
+    height: 5vh;
+    font-size:4vh;
+}
+#Button_panel{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+button{
+    height: 10%;
+    width: 40%;
+    font-size: 2vh;
+}
+}
+@media screen and (max-width:1025px) and (min-width:550px){
+    #Tital_panel{
+    width: 80%;
+    height: 5vh;
+    font-size:4vh;
+}
+#Button_panel{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+button{
+    height: 10%;
+    width: 40%;
+    font-size: 2vh;
+}
+}
